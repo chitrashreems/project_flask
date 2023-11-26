@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<title>Shakti girl's college</title>
+	<link rel="stylesheet" href="https:\\maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/home.css')}}">>
+</head>
+<body>
+	<header class="bg-primary text-white text-center py-5">
+		<h1>Shakti girl's college</h1>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#facilities">Facilities</a></li>
+						<li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+						<li class="nav-item"><a class="nav-link" href="#admission">Admission</a></li>
+						<li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+						<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<img src="{{url_for('static', filename='images/MyDesign.png.jpeg')}}">
+
+
+	<section id="about" class="content-section bg-light py-5">
+		<div class="container">
+			<h2 class="text-center">About Us</h2>
+			<p>Welcome to Shakti girl's college, a leading institution dedicated to excellence in eductaion...</p>
+		</div>
+	</section>
+
+	<section id="facilities" class="content-section py-5">
+		<div class="container">
+			<h2 class="text-center">Facilities</h2>
+			<p>Well-equipped classroom with modern teaching aids and technology,library with diverse collection of books,specialized labs and other practical learning space... </p>
+		</div>
+	</section>
+
+	<img src="{{url_for('static', filename='images/PR.png.jpeg')}}">
+
+	 <section id="admission" class="content-section py-5">
+		<div class="container">
+			<h2>Admission Process</h2>
+			<p>Shakti girl's college adimission process is done in an online mode</p>
+			<p>Candidates can take admission to the various courses through Shakti-CET and other entrance exams followed by the micro presentation and personal interview</p>
+		</div>
+	</section>
+
+
+	<section id="programs" class="content-section bg-light py-5">
+		<div class="container">
+			<h2 class="text-center">Academic Programs</h2>
+			<ul>
+				<li>Bachelor's Degree in Arts</li>
+				<li>Bachelor's Degree in Science</li>
+				<li>Master's Degree in Business Admimistration</li>
+				<li>Master's Degree in Science</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="events" class="content-section bg-light py-5">
+		<div class="container">
+			<h2 class="text-center">Contact Us</h2>
+			<p>Reach out to us for any inquires or more inforamtio...</p>
+			<address>
+				Shakti Girl's college<br>
+				757 temple road<br>
+				kamanahalli,Bangalore 570024<br>
+				Phone: (0821) 223-4567<br>
+				Email: info@shaktigirlscollege.edu
+			</address>
+		</div>
+	</section>
+
+	<footer class="bg-dark text-white text-center py-3">
+		<p>&copy; @2023 Shakti girl's college. All rights reserved.</p>
+	</footer>
+
+</body>
